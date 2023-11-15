@@ -29,5 +29,29 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# Kompilerte klasser
+**/*.class
+
+# Pakkefiler
+**/*.jar
+**/*.war
+
+# IntelliJ IDEA spesifikke filer
+.idea/
+*.iml
+
+# Byggmapper
+target/
+
+# Maven
+mvnw
+mvnw.cmd
+.mvn/
+
+# Andre filer som kan være spesifikke for ditt prosjekt
+**/*.log
+**/*.pid
+
+
 ### VS Code ###
 .vscode/
